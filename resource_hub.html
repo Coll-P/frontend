@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resource Hub | CYNOPHEL CONSULTANTS</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <style>
+            body {
+                font-family: 'inter', sans-serif;
+            }
+
+            /* Smooth transitions */
+            .transition-all {
+                transition: all 0.3s ease;
+            }
+
+            /* Card hover effects */
+            .resource-card {
+                transition: transform 0.2s ease, box-shadow 0.2s ease;
+            }
+            
+            .resource-card:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            }
+        </style>
+    </head>
+<body class="bg-white text-[#1e3a8a]">
+    <div class="container mx-auto px-4 py-4">
+        <a href="index.html" class="inline-flex items-center text-[#1e3a8a] hover:text-blue-700 font-medium">
+            <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+            </svg>
+            Back to Home
+        </a>
+    </div>
+
+    <main class="container mx-auto px-4 py-12 max-w-7xl">
+        <h1 class="text-4xl font-bold mb-12 text-center">Resource Hub</h1>
+
+        <!-- Job Postings Section -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-semibold mb-6">Join Our Team</h2>
+            <p class="mb-8 text-gray-600 max-w-3xl">Explore current job openings and career opportunities in tax consulting.</p>
+            <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <div class="resource-card bg-white p-8 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-semibold mb-2">Senior Tax Consultant</h3>
+                    <p class="text-gray-600 mb-4">Join our team as a Senior Tax Consultant and help clients navigate complex tax situations.</p>
+                    <a href="#" class="text-blue-600 hover:underline">View Details</a>
+                </div>
+                <div class="resource-card bg-white p-8 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-semibold mb-2">Tax Compliance Specialist</h3>
+                    <p class="text-gray-600 mb-4">We're seeking a detail-oriented Tax Compliance Specialist to ensure client adherence to tax regulations.</p>
+                    <a href="#" class="text-blue-600 hover:underline">View Details</a>
+                </div>
+                <div class="resource-card bg-white p-8 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-semibold mb-2">Junior Tax Analyst</h3>
+                    <p class="text-gray-600 mb-4">Great opportunity for recent graduates to start their career in tax consultancy.</p>
+                    <a href="#" class="text-blue-600 hover:underline">View Details</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expert Quotes Section -->
+        <section class="mb-16 bg-gray-50 py-12 px-8 rounded-xl">
+            <h2 class="text-3xl font-semibold mb-6">Expert Quotes</h2>
+            <p class="mb-8 text-gray-600 max-w-3xl">Get inspiring quotes and tips from our experts in tax planning and consulting.</p>
+            <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <div class="resource-card bg-white p-8 rounded-xl shadow-sm">
+                    <blockquote class="italic mb-4 text-gray-700 leading-relaxed">"Effective tax planning is not about avoiding taxes, but about understanding the tax implications of your business decisions."</blockquote>
+                    <p class="font-semibold">- John Doe, Senior Tax Consultant</p>
+                </div>
+                <div class="resource-card bg-white p-8 rounded-xl shadow-sm">
+                    <blockquote class="italic mb-4 text-gray-700 leading-relaxed">"Stay ahead of tax changes by regularly reviewing your financial strategies with a qualified tax consultant."</blockquote>
+                    <p class="font-semibold">- Jane Smith, Tax Compliance Manager</p>
+                </div>
+                <div class="resource-card bg-white p-8 rounded-xl shadow-sm">
+                    <blockquote class="italic mb-4 text-gray-700 leading-relaxed">"The key to successful tax management is maintaining accurate records throughout the year, not just during tax season."</blockquote>
+                    <p class="font-semibold">- Mike Johnson, Tax Advisory Director</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Industry News Section -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-semibold mb-6">Industry News</h2>
+            <p class="mb-8 text-gray-600 max-w-3xl">Stay updated with the latest news and developments in the tax industry.</p>
+            <div class="space-y-6">
+                <div class="resource-card bg-white p-8 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-semibold mb-2">New Tax Regulations for Small Businesses Announced</h3>
+                    <p class="text-gray-600 mb-4">The government has introduced new tax regulations aimed at simplifying the tax process for small businesses. These changes are set to take effect from the next fiscal year.</p>
+                    <a href="#" class="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium">
+                        Read More
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="resource-card bg-white p-8 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-semibold mb-2">Digital Tax Reporting System to be Implemented Nationwide</h3>
+                    <p class="text-gray-600 mb-4">The tax authority has announced plans to roll out a new digital tax reporting system, which aims to streamline the tax filing process and reduce errors.</p>
+                    <a href="#" class="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium">
+                        Read More
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="resource-card bg-white p-8 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-semibold mb-2">International Tax Treaty Updates: What You Need to Know</h3>
+                    <p class="text-gray-600 mb-4">Recent updates to international tax treaties could have significant implications for businesses operating across borders. Our experts break down the key changes.</p>
+                    <a href="#" class="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium">
+                        Read More
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Downloadable Files Section -->
+        <section class="mb-16 bg-gray-50 py-12 px-8 rounded-xl">
+            <h2 class="text-3xl font-semibold mb-6">Downloadable Files</h2>
+            <p class="mb-8 text-gray-600 max-w-3xl">Access valuable downloadable resources including guides and reports.</p>
+            <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <div class="resource-card bg-white p-8 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-semibold mb-2">2024 Tax Planning Guide</h3>
+                    <p class="text-gray-600 mb-4">A comprehensive guide to help you plan your taxes for the upcoming year.</p>
+                    <a href="#" class="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium">
+                        Download PDF
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="resource-card bg-white p-8 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-semibold mb-2">Small Business Tax Checklist</h3>
+                    <p class="text-gray-600 mb-4">Essential checklist for small business owners to ensure they're meeting all tax obligations.</p>
+                    <a href="#" class="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium">
+                        Download PDF
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="resource-card bg-white p-8 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-semibold mb-2">International Tax Considerations Report</h3>
+                    <p class="text-gray-600 mb-4">An in-depth report on tax considerations for businesses operating internationally.</p>
+                    <a href="#" class="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium">
+                        Download PDF
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-[#1e3a8a] text-white py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">CYNOPHEL CONSULTANTS</h3>
+                    <p class="text-gray-300 mb-4">Providing exceptional tax consultancy services to businesses and individuals.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-4">OFFICE</h3>
+                    <p class="text-gray-300">Mikocheni Plot 121</p>
+                    <p class="text-gray-300">Opposite Regency Hotel</p>
+                    <p class="text-gray-300">Dar es Salaam, Tanzania</p>
+                    <p class="text-gray-300 mt-2">Phone: +255 757-567-700</p>
+                    <p class="text-gray-300">Email: info@cynophel.co.tz</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-5">LINKS</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-300 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="index.html#about" class="text-gray-300 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="index.html#services" class="text-gray-300 hover:text-white transition-colors">Services</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Resource Hub</a></li>
+                        <li><a href="index.html#contact" class="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-4">NEWSLETTER</h3>
+                    <p class="text-gray-300 mb-4">Subscribe to our newsletter for updates and insights.</p>
+                    <form class="flex gap-2">
+                        <input 
+                            type="email" 
+                            placeholder="Enter your email" 
+                            class="bg-white-900/50 text-[#1e3a8a] px-4 py-2 rounded flex-1 focus:outline-none focus:ring-2 focus:ring-white/20"
+                        >
+                        <button type="submit" class="bg-white text-[#1e3a8a] px-4 py-2 rounded hover:bg-gray-100 transition-colors">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
