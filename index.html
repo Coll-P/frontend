@@ -14,7 +14,7 @@
     }
 
     body {
-      font-family: 'Calibri';
+      font-family:poppins, sans-serif;
     }
 
     /* Responsive font sizes */
@@ -149,15 +149,9 @@
         <div class="hidden md:flex space-x-8">
           <a href="#home" class="nav-link text-l font-medium hover:text-[#1A3687]">Home</a>
           <a href="#about" class="nav-link text-l font-medium hover:text-[#1A3687]">About</a>
-          <div class="relative group">
+        
             <a href="#services" class="nav-link text-l font-medium hover:text-[#1A3687]">Services</a>
-            <div class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
-              <a href="#statutory-audit" class="block px-4 py-2 text-sm text-gray-700 hover:bg-[#1A3687]/10">Statutory Audit</a>
-              <a href="#outsourcing" class="block px-4 py-2 text-sm text-gray-700 hover:bg-[#1A3687]/10">Outsourcing Compliance</a>
-              <a href="#tax-health" class="block px-4 py-2 text-sm text-gray-700 hover:bg-[#1A3687]/10">Tax Health Check</a>
-              <a href="#tax-retainer" class="block px-4 py-2 text-sm text-gray-700 hover:bg-[#1A3687]/10`">Tax Retainer</a>
-            </div>
-          </div>
+         
           <a href="#hub" class="nav-link text-l font-medium hover:text-[#1A3687]">Hub</a>
           <a href="#contact" class="nav-link text-l font-medium hover:text-[#1A3687]">Contact</a>
         </div>
@@ -202,21 +196,20 @@
       <div class="grid md:grid-cols-2 gap-8 items-center mt-8">
             <div>
               <p class="mb-4 text-sm sm:text-base md:text-lg text-black">
-                Cynophel is focused on achieving a high-quality service where our clients have direct access to decision-makers. Our people are driven to build and maintain positive, personal relationships and to really understand the sectors in which our clients operate.
-              </p>
-              <p class="mb-4 text-sm sm:text-base md:text-lg text-black">
-                Our approach is as follows, for audits it is risk-based, innovative and efficient. We focus on improving the audit process, year on year, and providing quality feedback to management on internal systems and controls.
-              </p>
-              <p class="mb-4 text-sm sm:text-base md:text-lg text-black">
-                We also add value to our clients through our approach to tax compliance and planning. We work with clients to provide awareness of pending changes in legislation and assess the impact on their business.
-              </p>
-              <button class="mt-4 bg-[#1A3687] text-white px-4 py-2 rounded hover:bg-[#1A3687] transition-colors">Learn More About Our Services</button>
+<span class="font-semibold">Cynophel Consultants</span> delivers high-quality audit and tax advisory services grounded in precision, professionalism, and insight. Our clients engage directly with senior professionals who bring sector expertise, rigorous analysis, and a proactive approach to navigating regulatory change and unlocking long-term business value              </p>
+              
+             <a href="#services" class="nav-link text-l font-medium hover:text-[#1A3687]"> <button class="mt-4 bg-[#1A3687] text-white px-4 py-2 rounded hover:bg-[#1A3687] transition-colors">Learn More About Our Services</button></a>
             </div>
            <div class="bg-gray-100 p-8 rounded-lg shadow-md">
-  <h2 class="text-2xl font-semibold mb-4 text-[#1A3687]">Upcoming Tax Events</h2>
+ <h2 class="text-2xl font-semibold mb-4 text-[#1A3687] text-center">Upcoming Tax Events</h2>
   <div class="overflow-x-auto">
     <table class="w-full text-left border-collapse">
       <tbody>
+      <tr class="align-top">
+          <td class="pr-6 py-2 font-bold text-[#1A3687] whitespace-nowrap">June 12, 2025</td>
+          <td class="py-2"><span class="font-semibold">Tanzanian National Budget Announcement</span>
+          </td>
+        </tr>       
         <tr class="align-top">
           <td class="pr-6 py-2 font-bold text-[#1A3687] whitespace-nowrap">June 30, 2025</td>
           <td class="py-2">First installment of <span class="font-semibold">Provisional Income Tax</span> due</td>
@@ -225,26 +218,7 @@
           <td class="pr-6 py-2 font-bold text-[#1A3687] whitespace-nowrap">July 7, 2025</td>
           <td class="py-2"><span class="font-semibold">PAYE</span> remittance due for June 2025</td>
         </tr>
-        <tr class="align-top">
-          <td class="pr-6 py-2 font-bold text-[#1A3687] whitespace-nowrap">July 15, 2025</td>
-          <td class="py-2"><span class="font-semibold">VAT Return</span> and payment due for June 2025</td>
-        </tr>
-        <tr class="align-top">
-          <td class="pr-6 py-2 font-bold text-[#1A3687] whitespace-nowrap">September 30, 2025</td>
-          <td class="py-2">Second installment of <span class="font-semibold">Provisional Income Tax</span> due</td>
-        </tr>
-        <tr class="align-top">
-          <td class="pr-6 py-2 font-bold text-[#1A3687] whitespace-nowrap">October 7, 2025</td>
-          <td class="py-2"><span class="font-semibold">PAYE</span> remittance due for September 2025</td>
-        </tr>
-        <tr class="align-top">
-          <td class="pr-6 py-2 font-bold text-[#1A3687] whitespace-nowrap">October 15, 2025</td>
-          <td class="py-2"><span class="font-semibold">VAT Return</span> and payment due for September 2025</td>
-        </tr>
-        <tr class="align-top">
-          <td class="pr-6 py-2 font-bold text-[#1A3687] whitespace-nowrap">December 30, 2025</td>
-          <td class="py-2">Final installment of <span class="font-semibold">Provisional Income Tax</span> due</td>
-        </tr>
+       
       </tbody>
     </table>
   </div>
@@ -326,62 +300,52 @@
       <!-- Carousel -->
       <div id="services-carousel" class="flex overflow-x-auto snap-x snap-mandatory gap-8 pb-8 scroll-smooth"
         style="scrollbar-width: none; -ms-overflow-style: none;">
-        <!-- Service Card Example (repeat for each service) -->
         <div class="service-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow min-w-[320px] max-w-xs snap-center shrink-0">
           <div class="mb-4">
-            <img src="image/statutory.jpeg" alt="Statutory Audit" class="w-16 h-16 mx-auto rounded-full">
+            <img src="image/statutory.jpeg" alt="Advisory" class="w-16 h-16 mx-auto rounded-full">
           </div>
-          <h3 class="text-2xl font-semibold mb-2 text-[#1A3687]">Statutory Audit</h3>
+          <h3 class="text-2xl font-semibold mb-2 text-[#1A3687] text-center">Advisory</h3>
           <p class="text-sm text-gray-600">
-            Our statutory audit service goes beyond compliance, providing you with valuable insights into your organization’s financial health.
+         Strategic advisory to guide leaders through complex decisions and long-term planning with confidence.
           </p>
+          
+    <button class="mt-4 bg-[#1A3687] text-white px-4 py-2 rounded hover:bg-[#1A3687] transition-colors">Read More </button>
+  
         </div>
         <div class="service-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow min-w-[320px] max-w-xs snap-center shrink-0">
           <div class="mb-4">
-            <img src="image/compliance.jpeg" alt="Outsourcing Compliance Services" class="w-16 h-16 mx-auto rounded-full">
+            <img src="image/compliance.jpeg" alt="Audit" class="w-16 h-16 mx-auto rounded-full">
           </div>     
-           <h3 class="text-2xl font-semibold mb-2 text-[#1A3687]">Outsourcing Compliance Services</h3>
+           <h3 class="text-2xl font-semibold mb-2 text-[#1A3687] text-center">Audit</h3>
           <p class="text-sm text-gray-600">
-            Managing regulatory compliance can be a time-consuming and complex task.
+           Reliable, risk-based audit services that deliver insight, strengthen controls, and build trust with stakeholders.
           </p>
+              <button class="mt-4 bg-[#1A3687] text-white px-4 py-2 rounded hover:bg-[#1A3687] transition-colors">Read More </button>
+
         </div>
         <div class="service-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow min-w-[320px] max-w-xs snap-center shrink-0">
           <div class="mb-4">
-            <img src="image/tax_health_check.jpeg" alt="Tax Health Check" class="w-16 h-16 mx-auto rounded-full">
+            <img src="image/tax_health_check.jpeg" alt="Consulting" class="w-16 h-16 mx-auto rounded-full">
           </div>
-          <h3 class="text-2xl font-semibold mb-2 text-[#1A3687]">Tax Health Check</h3>
+          <h3 class="text-2xl font-semibold mb-2 text-[#1A3687] text-center">Consulting</h3>
           <p class="text-sm text-gray-600">
-            Our Tax Health Check is a deep dive into your company’s tax position to uncover potential risks and opportunities.
-          </p>
+            Business consulting that aligns strategy with execution, helping you overcome challenges and scale with confidence.
+          </p>  
+              <button class="mt-4 bg-[#1A3687] text-white px-4 py-2 rounded hover:bg-[#1A3687] transition-colors">Read More </button>
+
         </div>
         <div class="service-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow min-w-[320px] max-w-xs snap-center shrink-0">
           <div class="mb-4">
-            <img src="image/tax_retainer.jpeg" alt="Tax Retainer" class="w-16 h-16 mx-auto rounded-full">
+            <img src="image/tax_retainer.jpeg" alt="Tax" class="w-16 h-16 mx-auto rounded-full">
           </div>
-          <h3 class="text-2xl font-semibold mb-2 text-[#1A3687]">Tax Retainer</h3>
+          <h3 class="text-2xl font-semibold mb-2 text-[#1A3687] text-center">Tax</h3>
           <p class="text-sm text-gray-600">
-            Tax regulations are ever-evolving, and staying compliant requires constant vigilance.
+            Expert tax support tailored to help clients stay compliant, optimize obligations, and navigate change with confidence.
           </p>
+              <button class="mt-4 bg-[#1A3687] text-white px-4 py-2 rounded hover:bg-[#1A3687] transition-colors">Read More </button>
+
         </div>
-        <div class="service-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow min-w-[320px] max-w-xs snap-center shrink-0">
-          <div class="mb-4">
-           <img src="image/tax_audit.jpeg" alt="Assistance in Tackling Tax Audits" class="w-16 h-16 mx-auto rounded-full">
-          </div>
-          <h3 class="text-2xl font-semibold mb-2 text-[#1A3687]">Assistance in Tackling Tax Audits</h3>
-          <p class="text-sm text-gray-600">
-            Facing a tax audit can be intimidating, but with our expert guidance, you can navigate the process with confidence.
-          </p>
-        </div>
-        <div class="service-card bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow min-w-[320px] max-w-xs snap-center shrink-0">
-          <div class="mb-4">
-            <img src="image/adhoc_tax.jpeg" alt="Adhoc Tax Advisory Services" class="w-16 h-16 mx-auto rounded-full">
-          </div>
-          <h3 class="text-2xl font-semibold mb-2 text-[#1A3687]">Adhoc Tax Advisory Services</h3>
-          <p class="text-sm text-gray-600">
-            Businesses often encounter unique tax challenges that require specialized attention.
-          </p>
-        </div>
-        <!-- Add more service cards as needed -->
+              <!-- End of service cards as needed -->
       </div>
       <!-- Dots -->
       <div class="flex justify-center mt-4 gap-2" id="services-dots"></div>
@@ -552,10 +516,33 @@
 
     <div class="absolute top-0 left-0 w-full h-12 bg-[#1A3687] -skew-y-48"></div>
   </footer>
+  <div id="modal-overlay" class="fixed inset-0 bg-black bg-opacity-50 hidden z-50">
+  <div class="min-h-screen px-4 text-center">
+    <div class="fixed inset-0 bg-gradient-to-br from-cyan-400 to-blue-500">
+      <!-- Background image or gradient -->
+    </div>
     
+    <!-- Modal content -->
+    <div class="inline-block w-full max-w-2xl p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white bg-opacity-90 shadow-xl rounded-2xl relative top-20">
+      <button id="modal-close" class="absolute top-4 right-4 text-gray-500 hover:text-gray-700">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+      
+      <div id="modal-content" class="mt-2">
+        <!-- Content will be dynamically inserted here -->
+      </div>
+    </div>
+  </div>
+</div>   
   <script>
     const mobileMenuButton = document.getElementById('mobile-menu-button');
     const mobileMenu = document.getElementById('mobile-menu');
+    const modalOverlay = document.getElementById('modal-overlay');
+    const modalClose = document.getElementById('modal-close');
+    const modalContent = document.getElementById('modal-content');
+ 
 
     mobileMenuButton.addEventListener('click', () => {
       mobileMenu.classList.toggle('hidden');
@@ -670,7 +657,52 @@
     window.requestAnimationFrame(highlightDot);
   });
       highlightDot();
+  
+      const serviceContent = {
+  advisory: {
+    title: "Advisory Services",
+    content: `
+     Cynophel supports leaders in navigating complex financial, regulatory, and organizational decisions. We offer tailored guidance on governance, restructuring, M&A, and compliance — always with a focus on your long-term goals. Whether you're responding to regulatory pressure, preparing for investment, or managing change, our advisors are here to help you move forward with clarity and confidence.
+    `
+  },
+  audit: {
+    title: "Audit Services",
+    content: `
+Our audit services are built on a foundation of integrity, innovation, and precision. We take a risk-based approach — focusing on the areas that matter most — and continuously evolve our process year after year. By working closely with senior experts, clients benefit from actionable insights, enhanced financial reporting, and improved internal systems. Our audits are not just about compliance -they are about creating value.    `
+  },
+  consulting: {
+    title: "Consulting Services",
+    content: `
+We partner with organizations to identify barriers to growth, optimize operations, and drive performance. Whether you're undergoing change, entering new markets, or rethinking your strategy — our consultants provide pragmatic, data-informed guidance rooted in sector expertise. From operational assessments to transformation initiatives, our consulting practice is built for outcomes, not just analysis.`
+  },
+  tax: {
+    title: "Tax Services",
+    content: `
+At Cynophel, we provide comprehensive tax consultancy that goes beyond filing. Our team offers tailored strategies to manage obligations, leverage incentives, and stay ahead of legislative changes. We support you with tax planning, compliance reviews, risk assessments, and real-time alerts on regulatory shifts — so you can make informed decisions and minimize exposure.`
+  }
+  //content for other services 
+};
+document.querySelectorAll('.read-more-btn').forEach(button => {
+  button.addEventListener('click', () => {
+    const service = button.dataset.service;
+    const content = serviceContent[service];
+    
+    if (content) {
+      modalContent.innerHTML = content.content;
+      modalOverlay.classList.remove('hidden');
+    }
+  });
+});
 
+modalClose.addEventListener('click', () => {
+  modalOverlay.classList.add('hidden');
+});
+
+modalOverlay.addEventListener('click', (e) => {
+  if (e.target === modalOverlay) {
+    modalOverlay.classList.add('hidden');
+  }
+});
   </script>
 </body>
 </html>
